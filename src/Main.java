@@ -24,7 +24,6 @@ public class Main {
         for (User user : sortedByAge) {
             System.out.println(user);
         }
-
         double averageAge = users.stream()
                 .mapToInt(User::getAge)
                 .average()
