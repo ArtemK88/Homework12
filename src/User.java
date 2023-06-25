@@ -1,9 +1,9 @@
-public class Users {
+public class User {
     private String firstName;
     private String secondName;
     private int age;
 
-    public Users(String firstName, String secondName, int age) {
+    public User(String firstName, String secondName, int age) {
         this.firstName = firstName;
         this.secondName = secondName;
         this.age = age;
